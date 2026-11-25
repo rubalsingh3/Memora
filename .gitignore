@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.pytest_basetemp/
+.coverage
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+pm_on.json
+*.pem
+*.key
+
+# Local scratch & reports
+*.log
+step8-e2e-report.json
